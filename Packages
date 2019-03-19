@@ -1,28 +1,17 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Package: com.duccom01.autoleaddamon
+Version: 5.1-92+debug
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
-
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Maintainer: duccom01
+Installed-Size: 400
+Filename: ./debs/com.chickauto.autolead.deb
+Size: 74566
+MD5sum: ad2bc5b95a7a2e938a01125599bffa7b
+SHA1: 9b0b830abb839c31c75e935287e77e6707c3a01d
+SHA256: 67e6b6759e28333f04b665a17bbfb699db31a91d1ead8bde79e5c5bb15d741ce
+Section: System
+Description: Auto Lead iOS
+Tag: role::hacker
+Author: duccom01
+Depiction: https://chickauto.github.io/1.0/depictions/?p=com.chickauto.autolead
+Name: autoleaddaemon
 
