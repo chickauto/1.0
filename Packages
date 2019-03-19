@@ -15,3 +15,38 @@ Author: duccom01
 Depiction: https://chickauto.github.io/1.0/depictions/?p=com.chickauto.autolead
 Name: autoleaddaemon
 
+Package: sqlite3
+Version: 3.5.9-13
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 384
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: sqlite3-lib
+Replaces: sqlite3 (<= 3.5.9-11)
+Filename: ./debs/sqlite3_3.5.9-13_iphoneos-arm.deb
+Size: 72400
+MD5sum: cc7a5edf1ee34c7016fb1c07ba542381
+SHA1: 23c7ced987de0ff8c07a4e12daf169ce3d0d7307
+SHA256: d8d0672daa091b1dbd598dc53c00de390a517b8f1f499108817ba9ed39f54403
+Section: Data_Storage
+Priority: standard
+Description: embedded database used by iPhoneOS
+Name: SQLite 3.x
+
+Package: sqlite3-lib
+Version: 3.5.9-2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 12
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 3.0) | sqlite3-dylib
+Filename: ./debs/sqlite3-lib_3.5.9-2_iphoneos-arm.deb
+Size: 686
+MD5sum: 3d5fa2f07bc0d8da5406e771c62bed94
+SHA1: fca1e872be367efe50f511b31784f8409c916969
+SHA256: 9a28219732478ff9aac334e21337ac098dc3e9c57de2a24f17677c12ba4fead7
+Section: Data_Storage
+Priority: standard
+Description: represents the library for SQLite
+Name: SQLite 3.x Library
+

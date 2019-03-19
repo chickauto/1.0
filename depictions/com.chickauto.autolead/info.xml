@@ -9,6 +9,7 @@
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
+		<package>com.cydiageek.coysim</package>
 	</dependencies>
 	<shortDescription>This is chick autolead. Firmware should be greater than 9.0</shortDescription>
 	<descriptionlist>
