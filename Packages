@@ -1,20 +1,74 @@
+Package: ch.ringwald.hidsupport
+Version: 1.3.1-4+debug
+Architecture: iphoneos-arm
+Maintainer: Matthias Ringwald
+Installed-Size: 424
+Depends: mobilesubstrate (>= 0.9.5101), com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0)
+Filename: ./debs/ch.ringwald.hidsupport_1.3.1-4+debug_iphoneos-arm.deb
+Size: 26606
+MD5sum: 7e963496214893907d78016164514ef2
+SHA1: c9b0fe8261b31d19f8086f6f5c1f4bee00c4a23e
+SHA256: 1af5d3ca83ac04a499c3ac2777e3d75c9295ad1095b73a2d2f969d3bdee70674
+Section: Tweaks
+Homepage: https://github.com/mringwal/hid-support
+Description: Support for Human Interface Devices on iOS and new Apple TV
+Tag: role::developer
+Author: Matthias Ringwald
+Name: hid-support
+
 Package: com.duccom01.autoleaddamon
-Version: 5.1-93+debug
+Version: 5.1-94+debug
 Architecture: iphoneos-arm
 Maintainer: chick
 Installed-Size: 400
-Depends: sqlite3, com.cydiageek.coysim
+Depends: sqlite3, com.cydiageek.coysim, com.conradkramer.open,kr.iolate.simulatetouch,com.autopear.installipa,zip,sudo,com.rbt.useragentchanger,unzip,ws.hbang.repower,rsync,jetslammed,socat, com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap, applist, ch.ringwald.hidsupport, jp.ashikase.mousesupport, com.duccom01.hookkeyboard
 Filename: ./debs/com.chickauto.autolead.deb
-Size: 74590
-MD5sum: f29a514bf1f09eff74ab6d6a5fdbdb17
-SHA1: 2a925c0bcb677e0f9fb45d7dbf253411adc503fb
-SHA256: 6755fd4eacf79acf94df80abe642046420d58686bde29e97a957baf7f7554350
+Size: 74794
+MD5sum: 907cdf90541350e5278e9f6544d893ae
+SHA1: f364703a3384b82214f991abba2f6a8099d54d38
+SHA256: 82a52c69b2cd957c2827091f4bc8da3bbffe0d778cc23b379d388c2161263dd7
 Section: System
 Description: Auto Lead iOS
 Tag: role::hacker
 Author: chick
 Depiction: https://chickauto.github.io/1.0/depictions/?p=com.chickauto.autolead
 Name: ChickAuto
+
+Package: com.duccom01.hookkeyboard
+Version: 0.0.1-53+debug
+Architecture: iphoneos-arm
+Maintainer: Do Duc
+Installed-Size: 392
+Depends: mobilesubstrate
+Filename: ./debs/com.duccom01.hookkeyboard_0.0.1-53+debug_iphoneos-arm.deb
+Size: 79598
+MD5sum: 445e64ad9081b451c2b3229408b829ec
+SHA1: d8a7d28947fd0d1f735d9f3ecc5947ce14c10f0f
+SHA256: e1bd4dcc3b99913c29c185919ceb06b37046ae0246735a4aae81cbe6862f4122
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Do Duc
+Name: hookkeyboard
+
+Package: jp.ashikase.mousesupport
+Version: 1:1.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 116
+Depends: mobilesubstrate (>= 0.9.5101), firmware (>=3.0), com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0), preferenceloader (>= 2.2.2), applist, ch.ringwald.hidsupport (>= 1.3.1)
+Filename: ./debs/jp.ashikase.mousesupport_1:1.0-4+debug_iphoneos-arm.deb
+Size: 22314
+MD5sum: af3040a3d2785157f052e106ae1d45b2
+SHA1: 3e3e929286b0b5b75fb9abd3be74a5f2b5398f6b
+SHA256: 6646ffd7b5dd77b1c5970e35ba002d91cd035bd6c9d12f7f5068b96e6db44256
+Section: System
+Homepage: https://github.com/mringwal/mouse-support
+Description: Pointer and external input extension
+Tag: role::hacker
+Author: Matthias Ringwald <tickets@btstack.uservoice.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mousesupportData
+Name: MouseSupport
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: sqlite3
 Version: 3.5.9-13
