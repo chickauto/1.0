@@ -17,16 +17,16 @@ Author: Matthias Ringwald
 Name: hid-support
 
 Package: com.duccom01.autoleaddamon
-Version: 5.1-94+debug
+Version: 5.1-95+debug
 Architecture: iphoneos-arm
 Maintainer: chick
 Installed-Size: 400
 Depends: sqlite3, com.cydiageek.coysim, com.conradkramer.open,kr.iolate.simulatetouch,com.autopear.installipa,zip,sudo,com.rbt.useragentchanger,unzip,ws.hbang.repower,rsync,jetslammed,socat, com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap, applist, ch.ringwald.hidsupport, jp.ashikase.mousesupport, com.duccom01.hookkeyboard
 Filename: ./debs/com.chickauto.autolead.deb
-Size: 74794
-MD5sum: 907cdf90541350e5278e9f6544d893ae
-SHA1: f364703a3384b82214f991abba2f6a8099d54d38
-SHA256: 82a52c69b2cd957c2827091f4bc8da3bbffe0d778cc23b379d388c2161263dd7
+Size: 74820
+MD5sum: 3599cbfcf0b3f0f347a78d7e04e652b2
+SHA1: ea8c62dcb2185e88a58edbed7c163874b5e3efd6
+SHA256: df804743362d39ccd527b76f7aeb950971ae83ea3185ad46e8d3f1452db3dc33
 Section: System
 Description: Auto Lead iOS
 Tag: role::hacker
